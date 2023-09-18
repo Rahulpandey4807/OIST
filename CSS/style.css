@@ -51,7 +51,7 @@
 .header{
     min-height: 125vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/photo1694874081.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/photo1694874081.jpeg);
     background-position: center;
     background-size:contain;
     position: relative;
@@ -137,10 +137,10 @@ nav img{
 nav .fa{
     display: none;
 }
-@media(max-width:700px){
+@media(max-width:641px){
 
     .text-box h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .nav-link ul li{
         /* list-style: none; */
@@ -214,7 +214,7 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width : 700px){
+@media(max-width : 641px){
     .row{
         flex-direction: column;
     }
@@ -299,11 +299,18 @@ h3{
 }
 
 .review{
+    
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
     
+}
+
+@media(max-width : 641px){
+    .review{
+        flex-direction: column;
+    }
 }
 .recruiters{
     width: 80%;
