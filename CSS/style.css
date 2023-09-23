@@ -51,7 +51,7 @@
 .header{
     min-height: 125vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/OIST Background.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/OIST\Background.jpeg);
     background-position: center;
     background-size:contain;
     position: relative;
